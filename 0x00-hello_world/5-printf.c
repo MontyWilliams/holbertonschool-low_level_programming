@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
  * main - Initiates the function
  *
  * Description: This is the function.
