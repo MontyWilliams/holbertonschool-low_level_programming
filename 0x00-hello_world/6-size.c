@@ -17,3 +17,5 @@ printf("size of an int: %zu", sizeof(intType));
 printf("size of a long int: %zu", sizeof(lType));
 printf("size of a long long int: %zu", sizeof(llType));
 printf("size of a float: %zu", sizeof(floatType));
+return (0);
+}
