@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#run file through prprocessor
+g++ $CFILE -o c
