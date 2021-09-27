@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
- * main - Initiates the function\
+ * main - Initiates the function
  *
  * Description: This is the function.
  * Return: Closes main func
