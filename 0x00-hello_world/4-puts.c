@@ -1,6 +1,8 @@
 #include<stdio.h>
 /**
  * main - Initiates the function
+ *
+ * Description: I guesse this is a description.
  */
 int main(void)
 {
