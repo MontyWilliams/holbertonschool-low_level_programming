@@ -3,6 +3,7 @@
  * main - Initiates the function
  *
  * Description: I guesse this is a description.
+ * Return: This just closes the main function
  */
 int main(void)
 {
