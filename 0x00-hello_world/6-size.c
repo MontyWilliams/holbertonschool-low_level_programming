@@ -12,10 +12,10 @@ int intType;
 long int lType;
 long long int llType;
 float floatType;
-printf("size of a char: %zu\n", sizeof(charType));
-printf("size of an int: %zu\n", sizeof(intType));
-printf("size of a long int: %zu\n", sizeof(lType));
-printf("size of a long long int: %zu\n", sizeof(llType));
-printf("size of a float: %zu\n", sizeof(floatType));
+printf("size of a char: %zu\n", sizeof(T)(charType));
+printf("size of an int: %zu\n", sizeof(T)(intType));
+printf("size of a long int: %zu\n", sizeof(T)(lType));
+printf("size of a long long int: %zu\n", sizeof(T)(llType));
+printf("size of a float: %zu\n", sizeof(T)(floatType));
 return (0);
 }
