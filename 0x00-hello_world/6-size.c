@@ -12,7 +12,7 @@ int intType;
 long int lType;
 long long int llType;
 float floatType;
-printf("size of a char: %zu\n", sizeof(T)(charType));
+printf("size of a char: %zu\n",  std::size_t(charType));
 printf("size of an int: %zu\n", sizeof(T)(intType));
 printf("size of a long int: %zu\n", sizeof(T)(lType));
 printf("size of a long long int: %zu\n", sizeof(T)(llType));
