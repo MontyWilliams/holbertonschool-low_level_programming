@@ -5,7 +5,7 @@
  * main - Initiates  function
  *
  * Description: prints random # and finds last digit
- * Return: returns random # and last digit 
+ * Return: returns random # and last digit
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ if (i > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, i);
 }
-else if(i == 0)
+else if (i == 0)
 {
 printf("Last digit of %d is %d and is 0\n", n, i);
 }
