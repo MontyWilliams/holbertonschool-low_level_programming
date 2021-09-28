@@ -1,10 +1,9 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - Initiates  function
  *
- * Description: prints random # and finds last digit
+ * Description: prints alphabet twice
  * Return: alphabet in lower case followed by upercase and new line
  */
 int main(void)
@@ -15,7 +14,7 @@ for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar (ch);
 }
-for (cg = 'A'; ch <= 'z'; cg++)
+for (cg = 'A'; cg <= 'Z'; cg++)
 {
 putchar (cg);
 }
