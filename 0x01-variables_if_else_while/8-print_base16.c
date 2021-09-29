@@ -12,7 +12,7 @@ int l;
 int n;
 for (l = 0; l < 10; l++)
 {
-putchar ((l % 10) + '0' );
+putchar ((l % 10) + '0');
 }
 for (n = 'a'; n < 'g';  n++)
 {
