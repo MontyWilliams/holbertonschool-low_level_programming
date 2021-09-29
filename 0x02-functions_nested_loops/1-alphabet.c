@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Initiates  function
+ * print_alphabet:  header function that prints alphabet
  *
  * Description: using a homemade putchar from main.h
  * Return: returns the alphabet in lower case
@@ -13,5 +13,4 @@ for (i = 'a'; i <= 'z'; i++)
 _putchar (i);
 }
 _putchar ('\n');
-return ;
 }
