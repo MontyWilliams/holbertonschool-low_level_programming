@@ -1,21 +1,17 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Initiates  function
  *
- * Description: prints random # and finds last digit
- * Return: returns random # and last digit
+ * Description: using a homemade putchar from main.h
+ * Return: returns the alphabet in lower case
  */
-int main(void)
+void print_alphabet(void)
 {
-char ch;
-void print_alphabet(void);
+char i;
+for (i = 'a'; i <= 'z'; i++)
 {
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-putchar (ch);
+_putchar (i);
 }
-putchar ('\n');
-}
-return (0);
+_putchar ('\n');
+return ;
 }
