@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+/**
+ * main - initiates function
+ * Description: print 0-9 
+ * Return: ints
+ */
 int main(void)
 {
 int i;
