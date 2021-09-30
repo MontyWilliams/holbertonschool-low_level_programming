@@ -11,11 +11,11 @@ c = (1 % 10);
 if(c < 0)
 {
 c = (c * c);
-_putchar (c);
+_putchar ('0' + c);
 }
 else
 {
-_putchar (c);
+_putchar ('0' + c);
 }
 return (0);
 }
