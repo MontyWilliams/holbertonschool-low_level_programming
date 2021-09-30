@@ -1,24 +1,32 @@
 #include "main.h"
 /**
- * print_last_digit - function that prints the last digit of a number
- * @c: var
- * Description: print the last digit of a number
- * Return: the last digit of a number
+ * jack_bauer - 24 hour count down
+ * Description: counts up to 24 hours
+ * Return: void
  */
 void jack_bauer(void)
 {
-int h, m, s;
-for (h = 0; h <= 24; h++)
+int hb, hs, mb, ms;
+for (hb = '0'; hb <= '2'; hb++)
 {
-for (m = 0; m <= 60; m++)
+for (hs = '0'; hs <= '9'; hs++)
 {
-for (s =0; s <= 60; s++)
+for (mb = '0'; mb <= '5'; mb++)
 {
-_putchar ('0' + s);
+for (ms = '0'; ms <= '9'; ms++)
+{
+_putchar (hb);
+_putchar (hs);
+_putchar (':');
+_putchar (mb);
+_putchar (ms);
+_putchar ('\n');
 }
-_putchar ('0' + m);
 }
-_putchar ('0' + h);
+if (hb == '2' && hs == '3')
+{
+break;
 }
-return ;
+}
+}
 }
