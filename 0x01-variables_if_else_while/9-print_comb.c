@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - initiates function
- * Description: print 0-9 
+ * Description: print 0-9
  * Return: ints
  */
 int main(void)
