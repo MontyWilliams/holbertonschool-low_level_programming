@@ -17,5 +17,5 @@ else
 {
 _putchar ('0' + c);
 }
-return (0);
+return (int);
 }
