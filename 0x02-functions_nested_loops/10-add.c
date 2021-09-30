@@ -6,7 +6,7 @@
  * Description: this function is homemade
  * Return: the sum of 2 ints
 */
-int add(int c,int  g)
+int add(int c, int g)
 {
 int n;
 n = (c + g);
