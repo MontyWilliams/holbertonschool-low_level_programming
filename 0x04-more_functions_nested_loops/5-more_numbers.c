@@ -4,7 +4,7 @@
  * Description: function that prints #s
  * Return:numbers
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 char c;
 char i;
