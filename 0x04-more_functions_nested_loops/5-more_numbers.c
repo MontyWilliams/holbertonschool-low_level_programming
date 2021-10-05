@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_most_numbers - prints #s
+ * more_numbers - prints #s
  * Description: function that prints #s
  * Return:numbers
  */
