@@ -15,7 +15,7 @@ _putchar(str[i]);
 i++;
 i++;
 if (str[i] == '\0')
-i++;
+break;
 }
 _putchar('\n');
 }
