@@ -2,8 +2,9 @@
 /**
  * _strncpy - copy a string
  * @dest: destinaition file
- * @src: file to be copied
- * Description: copies a string
+ * @src: string to be copied
+ * @n: int that specifies number of iterations
+ * Description: copies a string, the function itself is a pointer
  * Return: Always 0.
  */
 char *_strncpy(char *dest, char *src, int n)
