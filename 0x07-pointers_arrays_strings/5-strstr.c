@@ -16,7 +16,9 @@ char *_strstr(char *haystack, char *needle)
 		if (!*a)
 			return (0);
 		if (*a++ == *b++)
+		{
 			continue;
+		}
 			a = ++haystack;
 			b = needle;
 		}
