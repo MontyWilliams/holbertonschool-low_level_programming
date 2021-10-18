@@ -4,7 +4,7 @@
  * main - main function
  * @argc: counts # of arguments
  * @argv: arguments
- * Description:  prints all arguments on a new line
+ * Description:  multiplies 2 ints
  * Return: 0
  */
 
