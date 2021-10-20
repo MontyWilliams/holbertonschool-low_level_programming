@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * _strdup - returns a pointer to a string
  * @str: string to be pointed to
@@ -25,7 +24,7 @@ char *_strdup(char *str)
 	ptr[n] = str[n];
 
 	if (str == 0 || ptr == 0)
-		return ("NULL");
-
+		return (NULL);
+else
 		return (ptr);
 }
