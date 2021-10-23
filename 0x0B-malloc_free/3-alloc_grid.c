@@ -24,6 +24,6 @@ if (width < 1 || height < 1)
 for (i = 0; i < height; i++)
 ptr[i] = malloc(sizeof(int) * width);
 
-return (ptr);
+return (0);
 
 }
