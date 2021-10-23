@@ -16,7 +16,7 @@ int i;
 int **ptr;
 ptr = malloc(sizeof(int *) * height);
 
-if (ptr == NULL)
+if ((width || height) < 1);
 {
 	free(ptr);
 	return (NULL);
