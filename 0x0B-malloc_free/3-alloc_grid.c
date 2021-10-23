@@ -18,12 +18,11 @@ ptr = malloc(sizeof(int *) * height);
 
 if (width < 1 || height < 1)
 {
-	free(ptr);
 	return (NULL);
 }
 for (i = 0; i < height; i++)
 ptr[i] = malloc(sizeof(int) * width);
 
-return (0);
+return (ptr);
 
 }
