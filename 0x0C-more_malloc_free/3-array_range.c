@@ -20,11 +20,11 @@ int *array_range(int min, int max)
 
 	length = (max - min) + 1;
     ptr = malloc(sizeof(int) * len);
-    if (arr == NULL)
+    if (ptr == NULL)
         return (NULL);
         do {
-            arr[j] = i;
-            j++;
+            ptr[j] = i;
+            j++;   
         } while (i <= max; i++);
         return(ptr);
 
