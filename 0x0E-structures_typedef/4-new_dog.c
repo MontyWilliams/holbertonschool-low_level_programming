@@ -11,22 +11,26 @@
  * Description: create new dog
  * Return: newdog
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *newdog;
+	struct dog *cp;
 
 	newdog = malloc(sizeof(dog_t));
-
 	if (newdog == NULL)
+		return (NULL);
+	cp = malloc(sizeof(dog_t));
+
+	if (cp == NULL)
 	{
-		free(newdog);
+		free(cp);
 		return (NULL);
 	}
 
-	newdog->name = name;
-	newdog->age = age;
-	newdog->owner = owner;
 
-	return (newdog);
+	cp->name = name;
+	cp->age = age;
+	cp->owner = owner;
+
+return (newdog);
 }
