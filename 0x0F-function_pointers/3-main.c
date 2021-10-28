@@ -14,8 +14,7 @@ int main(int argc, char *argv[])
 {
 	int a;
 	int b;
-	int (*ans)(int, int);
-	char *valid = "+-*/%";
+	int (*funcptr)(int, int);
 
 	if (argc != 4)
 	{
@@ -23,15 +22,22 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	if (!strstr(valid, argv[2]))
+	if (*argv[2] != '+' && *argv[2] != '-' && *argv[2] != '*'
+		&& *argv[2] != '/' && *argv[2] != '%')
 	{
 		printf("Error\n");
 		exit(99);
 	}
+	if ((*argv[2] == '/' || *argv[2] == '%') && *argv[3] == '0')
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
 
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
-	ans = get_op_func(argv[2]);
-	printf("%d\n", ans(a, b));
+	funcptr = get_op_func(argv[2]);
+	printf("%d\n", funcptr(a, b));
 	return (0);
 }
