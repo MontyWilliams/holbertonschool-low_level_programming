@@ -15,23 +15,19 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *newdog;
-	struct dog *cp;
 
 	newdog = malloc(sizeof(dog_t));
 
-	cp = malloc(sizeof(dog_t));
+	newdog = malloc(sizeof(dog_t));
 	{
-	if (cp == NULL)
-	free(cp);
+	if (newdog == NULL)
+	free(newdog);
 		return (NULL);
 	}
 
 	newdog->name = name;
 	newdog->age = age;
 	newdog->owner = owner;
-	cp->name = newdog->name;
-	cp->age = newdog->age;
-	cp->owner = newdog->owner;
 
 	return (newdog);
 }
