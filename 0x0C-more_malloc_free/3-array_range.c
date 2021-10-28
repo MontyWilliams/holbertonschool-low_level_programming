@@ -12,23 +12,23 @@
  */
 int *array_range(int min, int max)
 {
-    int *ptr;
-	int i = 0, j, len;
+	int *ptr;
+	int i = min, j = 0, len;
 
 	if (min > max)
 		return (NULL);
 
 	len = (max - min) + 1;
-    ptr = malloc(sizeof(int) * len);
+	ptr = malloc(sizeof(int) * len);
 
-    if (ptr == NULL){
-        return (NULL);
-    }
-        do {
-            ptr[j] = i;
-            j++;   
-        } while (i <= max);
-        return(ptr);
-
-
+	if (ptr == NULL)
+	{
+	return (NULL);
+	}
+	do {
+		ptr[j] = i;
+		j++;
+		i++;
+	} while (i <= max);
+	return (ptr);
 }
