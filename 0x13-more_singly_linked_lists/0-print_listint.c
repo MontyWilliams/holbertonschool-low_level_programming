@@ -9,7 +9,7 @@ size_t print_listint(const listint_t *h)
 {
 	size_t count;
 
-	for (count = 0; (h); h = h->next, count++)
+	for (count = 0; (h); h = (h->next), count++)
 		{
 			_putchar((h->n) + '0');
 			_putchar('\n');
