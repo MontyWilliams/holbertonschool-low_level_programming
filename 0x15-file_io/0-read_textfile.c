@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * read_textfile - returns the actual number of letters it could read and print
- * @filename: file to read and print
- * @letters: number of letters to print
- * Return: the number or letters
+ * read_textfile - prints a script and returns leter count
+ * @filename: file
+ * @letters: number of letters
+ * Return: letters
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
