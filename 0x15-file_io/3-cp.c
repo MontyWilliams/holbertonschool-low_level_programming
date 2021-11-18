@@ -28,5 +28,7 @@ int main(__attribute__((unused))int ac, char **av)
 				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]),
 				exit(99);
 		}
+	close(to);
+	close(from);
 	return (0);
 }
