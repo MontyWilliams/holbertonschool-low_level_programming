@@ -14,20 +14,22 @@ int main(int argc, char  *argv[])
 	int x;
 
 	if (argc < '0' && argc > '9')
-		printf("0\n");
-
+	{
+	printf("0\n");
+	}
 	for (i = 1; i < argc; i++)
 	{
-	x = strtol(argv[i], NULL, 10);
-
-	while ((*(argv[i])) < '0' || (*(argv[i])) > '9')
+	for (x = 0; argv[i][x]; x++)
+	{
+	if (argv[i][x] < '0' && argv[i][x] > '9')
 	{
 		printf("Error\n");
 		return (1);
 	}
-
-		sum = sum + x;
+	else
+		sum = sum + *argv[i];
 	}
+}
 		printf("%d\n", sum);
 	return (0);
 }

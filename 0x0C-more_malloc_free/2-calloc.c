@@ -21,10 +21,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (!ptr)
 		return (NULL);
 
-	do {
-		ptr[i] = 0;
-		i++;
-	} while (i < nmemb * size);
+    do 
+    {
+        ptr[i] = 0;
+        touchi++;
+        }
+         while (i < nmemb * size);
 
 	return (ptr);
 }

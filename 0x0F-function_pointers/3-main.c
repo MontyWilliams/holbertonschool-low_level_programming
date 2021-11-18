@@ -14,7 +14,9 @@ int main(int argc, char *argv[])
 {
 	int a;
 	int b;
-	int (*funcptr)(int, int);
+	int (*funcptr)(ils
+	ls
+	nt, int);
 
 	if (argc != 4)
 	{
@@ -22,7 +24,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	if (*argv[2] != '+' && *argv[2] != '-' && *argv[2] != '*'
+	if (strlen(argv[2]) != 1 && *argv[2] != '+' && *argv[2] != '-' && *argv[2] != '*'
 		&& *argv[2] != '/' && *argv[2] != '%')
 	{
 		printf("Error\n");
