@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * print_dlistint_len - print the elemts in a list
+ * dlistint_len - print the elemts in a list
  * @h: Head pointer
  * Return: Number of nodes.
  */
-size_t print_dlistint_len(const dlistint_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 	int i;
 	const dlistint_t *copy;
