@@ -12,8 +12,9 @@ size_t print_dlistint_len(const dlistint_t *h)
 
 	copy = h;
 
-	for (i = 0; (copy); copy = copy->next)
+	while (copy)
 	{
+		copy = copy->next;
 		i++;
 	}
 	return (i);
