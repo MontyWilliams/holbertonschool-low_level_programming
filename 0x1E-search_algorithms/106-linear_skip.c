@@ -1,5 +1,7 @@
 #include "search_algos.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * linear_skip - linerar skip search
  * @list: pointer to linked list to search

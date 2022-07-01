@@ -1,6 +1,9 @@
 #ifndef __searh_algos__
 #define __searh_algos__
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * struct skiplist_s - Singly linked list with an express lane
  *
